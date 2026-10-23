@@ -1,0 +1,14 @@
+{
+  "name": "devhandbook-mcp",
+  "version": "1.0.0",
+  "description": "DevKit MCP — a dependency-free Model Context Protocol server on Cloudflare Workers. Exposes dev utilities (base64, hashing, UUID, passwords, epoch time, JSON formatting, cron scheduling) to any MCP client.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.120.1"
+  }
+}
